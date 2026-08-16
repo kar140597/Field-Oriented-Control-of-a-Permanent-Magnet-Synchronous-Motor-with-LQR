@@ -19,7 +19,7 @@ This project implements a full MIMO state-space controller with integral augment
 
 * **State-Space LQI Architecture:** Augmented state formulation incorporating tracking error integrators to ensure zero steady-state error under parameter uncertainty.
 * **Systematic Tuning via Bryson’s Rule:**
-  $$\mathbf{Q} = \frac{1}{n} \operatorname{diag}\left(\frac{1}{\varepsilon_1^2}, \dots, \frac{1}{\varepsilon_5^2}\right), \quad \mathbf{R} = \frac{1}{u_{\max}^2} \mathbf{I}$$
+  $$\mathbf{Q} = \frac{1}{n} \text{diag}\left(\frac{1}{\varepsilon_1^2}, \dots, \frac{1}{\varepsilon_5^2}\right), \quad \mathbf{R} = \frac{1}{u_{\max}^2} \mathbf{I}$$
 
 ---
 
