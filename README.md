@@ -9,7 +9,7 @@ A modern state-space approach to Field-Oriented Control (FOC) for Permanent Magn
 Standard industrial implementations of FOC predominantly rely on classical PI loops. However, during rapid speed and torque transients, cross-coupling terms ($-\omega_e L_q i_q$ and $\omega_e L_d i_d + \omega_e \lambda_{pm}$) introduce significant disturbances, leading to $d$-axis current excursions, integrator lag, and degraded tracking performance.
 
 This project implements a full MIMO state-space controller with integral augmentation to:
-- Formulate the coupled electrical dynamics of a PMSM in the synchronous $d$-$q$ domain.
+- Formulate the coupled electrical dynamics of a PMSM in the synchronous $d$ - $q$ domain.
 - Systematically synthesize optimal feedback ($K_s$) and integral ($K_{IA}$) gain matrices via **Bryson's inverse-square weighting rule**.
 - Evaluate transient decoupling, tracking recovery, and sensitivity against control saturation, sensor noise, and parameter deviations.
 
