@@ -1,6 +1,6 @@
 # Optimal LQI-Based Field-Oriented Control (FOC) for PMSM Drives
 
-A modern state-space approach to Field-Oriented Control (FOC) for Permanent Magnet Synchronous Machines (PMSMs). This project moves beyond standard cascaded Proportional-Integral (PI) control loops by designing, tuning, and benchmarking a **Linear Quadratic Regulator with Integral Action (LQI)** within the synchronous $d$-$q$ reference frame.
+A modern state-space approach to Field-Oriented Control (FOC) for Permanent Magnet Synchronous Machines (PMSMs). This project moves beyond standard cascaded Proportional-Integral (PI) control loops by designing, tuning, and benchmarking a **Linear Quadratic Regulator with Integral Action (LQI)** within the synchronous $d$ - $q$ reference frame.
 
 ---
 
